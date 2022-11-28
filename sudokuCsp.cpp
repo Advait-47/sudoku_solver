@@ -155,8 +155,15 @@ int main()
     cout << endl;
     printBoard();
     getDomain();
-    cout << "hi\n";
-    operate(0);
-    printBoard();
-    cout << "bye\n";
+    // cout << "hi\n";
+    if (operate(0))
+    {
+        printBoard();
+    }
+    else
+    {
+        cout << "Can't be solved\n";
+    }
+
+    // cout << "bye\n";
 }
