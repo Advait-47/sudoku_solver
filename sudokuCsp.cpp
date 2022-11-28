@@ -151,7 +151,7 @@ bool operate(int ind)
 
 int main()
 {
-    // setBoard();
+    setBoard();
     cout << endl;
     printBoard();
     getDomain();
